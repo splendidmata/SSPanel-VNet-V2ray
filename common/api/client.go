@@ -3,9 +3,10 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/go-resty/resty/v2"
 	"strconv"
 	"time"
+
+	"github.com/go-resty/resty/v2"
 )
 
 type ApiClient struct {
