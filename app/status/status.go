@@ -1,16 +1,17 @@
 package status
 
 import (
-	"code.cloudfoundry.org/bytefmt"
 	"context"
 	"fmt"
+	"time"
+
+	"code.cloudfoundry.org/bytefmt"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/mem"
 	"github.com/shirou/gopsutil/net"
-	"time"
 	"v2ray.com/core/common"
-	"v2ray.com/core/common/api"
+	api "v2ray.com/core/common/apisspanel"
 	"v2ray.com/core/common/log"
 	"v2ray.com/core/common/retry"
 	"v2ray.com/core/common/task"

@@ -12,10 +12,11 @@ import (
 	"sync"
 	"time"
 	"unsafe"
+
 	"v2ray.com/core"
 	"v2ray.com/core/app/rule"
 	"v2ray.com/core/common"
-	"v2ray.com/core/common/api"
+	api "v2ray.com/core/common/apisspanel"
 	"v2ray.com/core/common/buf"
 	"v2ray.com/core/common/errors"
 	"v2ray.com/core/common/httpx"

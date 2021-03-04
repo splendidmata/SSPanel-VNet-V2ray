@@ -13,7 +13,7 @@ import (
 	"v2ray.com/core/app/proxyman"
 	"v2ray.com/core/common"
 	"v2ray.com/core/common/acme"
-	"v2ray.com/core/common/api"
+	api "v2ray.com/core/common/apisspanel"
 	"v2ray.com/core/common/errors"
 	"v2ray.com/core/common/log"
 	"v2ray.com/core/common/net"

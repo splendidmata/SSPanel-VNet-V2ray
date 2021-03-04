@@ -2,11 +2,12 @@ package api_test
 
 import (
 	"testing"
-	. "v2ray.com/core/common/api"
+
+	. "v2ray.com/core/common/apisspanel"
 )
 
 func CreateClient() *ApiClient {
-	client := NewClient("https://www.vnetpanel.com", 4, "nhwzntuetd2kkb5a")
+	client := NewClient("http://127.0.0.1:666", 1, "BRb8ZgsSu7Ychwc5")
 
 	return client
 }
@@ -54,14 +55,14 @@ func TestApiClient_GetNodeRule(t *testing.T) {
 
 func TestApiClient_ReportUserTraffic(t *testing.T) {
 	userTrafficList := make([]*UserTraffic, 0)
-	userTrafficList = append(userTrafficList,&UserTraffic{
+	userTrafficList = append(userTrafficList, &UserTraffic{
 		UID:      1,
 		Upload:   409600,
 		Download: 409600,
 	})
-	client:=CreateClient()
+	client := CreateClient()
 	err := client.ReportUserTraffic(userTrafficList)
-	if err != nil{
+	if err != nil {
 		t.Error(err)
 	}
 }

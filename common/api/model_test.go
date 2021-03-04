@@ -3,7 +3,8 @@ package api_test
 import (
 	"encoding/json"
 	"fmt"
-	"v2ray.com/core/common/api"
+
+	api "v2ray.com/core/common/apisspanel"
 )
 
 func Example() {
@@ -29,7 +30,7 @@ func Example() {
             "speed_limit": 2621440
         }
     ]`
-	data := make([]*api.VMessUser,0)
+	data := make([]*api.VMessUser, 0)
 	err := json.Unmarshal([]byte(result), &data)
 	if err != nil {
 		fmt.Println(err.Error())

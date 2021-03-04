@@ -8,7 +8,8 @@ require (
 	github.com/cloudflare/cloudflare-go v0.11.6 // indirect
 	github.com/go-acme/lego/v3 v3.5.0
 	github.com/go-ole/go-ole v1.2.4 // indirect
-	github.com/go-resty/resty/v2 v2.2.0
+	github.com/go-playground/form v3.1.4+incompatible // indirect
+	github.com/go-resty/resty/v2 v2.5.0
 	github.com/golang/mock v1.4.3
 	github.com/golang/protobuf v1.4.2
 	github.com/google/go-cmp v0.4.0
@@ -22,9 +23,9 @@ require (
 	github.com/shirou/gopsutil v2.20.3+incompatible
 	go.starlark.net v0.0.0-20200330013621-be5394c419b6
 	golang.org/x/crypto v0.0.0-20200406173513-056763e48d71
-	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
+	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/sys v0.0.0-20200406155108-e3b113bbe6a4
+	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
 	google.golang.org/grpc v1.28.1
 	google.golang.org/protobuf v1.24.0

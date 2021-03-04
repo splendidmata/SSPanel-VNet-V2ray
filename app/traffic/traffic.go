@@ -7,8 +7,9 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
 	"v2ray.com/core/common"
-	"v2ray.com/core/common/api"
+	api "v2ray.com/core/common/apisspanel"
 	"v2ray.com/core/common/log"
 	"v2ray.com/core/common/retry"
 	"v2ray.com/core/common/task"

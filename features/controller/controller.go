@@ -1,7 +1,7 @@
 package inbound
 
 import (
-	"v2ray.com/core/common/api"
+	api "v2ray.com/core/common/apisspanel"
 	"v2ray.com/core/features"
 )
 

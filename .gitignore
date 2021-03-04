@@ -2,3 +2,5 @@
 bazel-*
 .idea
 v2ray-*-*.zip
+vnet/arm/vnet
+vnet/vnet
